@@ -1,6 +1,6 @@
 group_id: sdl.harvard
 name: networkanalytics # Will be concatenated with the group_id to an ID
-author: Lingbo Liu,Ru Wang,Allan Zhong,Tobias Koetter
+author: Lingbo Liu, Ru Wang, Tian Tian,Allan Zhong, Tobias Koetter
 vendor: SDL, Harvard, Cambridge US
 description: Network Analytics Extension for KNNIME # Human readable bundle name / description
 long_description: KNIME nodes for processing, analyzing and visualizing network or graph data.
