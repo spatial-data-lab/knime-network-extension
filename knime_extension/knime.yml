@@ -1,0 +1,13 @@
+group_id: sdl.harvard
+name: networkanalytics # Will be concatenated with the group_id to an ID
+author: Lingbo Liu,Ru Wang,Allan Zhong,Tobias Koetter
+vendor: SDL, Harvard, Cambridge US
+description: Network Analytics Extension for KNNIME # Human readable bundle name / description
+long_description: KNIME nodes for processing, analyzing and visualizing network or graph data.
+version: 0.1.0 # Version of this Python node extension
+license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
+extension_module: src/network_ext # The .py Python module containing the nodes of your extension
+env_yml_path: network_env.yml # This is necessary for bundling, but not needed during development
+feature_dependencies: 
+  - org.knime.features.core 5.1.1 #ensure that this extension can only be used with 5.1.1 which includes dialog rules
+
