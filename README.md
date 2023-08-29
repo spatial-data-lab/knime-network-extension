@@ -1,4 +1,4 @@
-# Geospatial Analytics Extension for KNIME
+# Network Analytics Extension for KNIME
 
 This repository is the home of the Network Analytics Extension for [KNIME Analytics Platform](https://www.knime.com/knime-analytics-platform). The Python-based extension provides a set of nodes for spatial network analysis and visualization.
 
